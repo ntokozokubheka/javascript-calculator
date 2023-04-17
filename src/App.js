@@ -47,8 +47,9 @@ setDisplay('0');
 
   return (
     <div className="App">
+    
       <div className="calculator">
-        <div id="display" className="row">{display}</div>
+         <div id="display" className="row">{display}</div>
          <div id="clear" onClick ={handleClear} className="row">AC </div>
           <div id="seven" onClick={handleNumber}>7</div>
           <div id="eight" onClick={handleNumber}>8</div>
